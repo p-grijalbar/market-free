@@ -1,0 +1,13 @@
+// @each $n, $c in $color-list {
+//     &.circle-#{$n} {
+//         stroke: $c;
+//     }
+// }
+
+.circles-text {
+    font-size: 3rem !important;
+}
+
+.circle-primary  {
+    stroke: $color-primary !important;
+}
